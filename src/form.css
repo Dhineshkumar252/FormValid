@@ -1,0 +1,43 @@
+#register, #login {
+    width: 600px;
+    height: 600px;
+    border: 1px solid #d6d7da;
+    /* padding: 0px 15px 15px 15px; */
+    border-radius: 5px;
+    font-family: arial;
+    line-height: 16px;
+    color: #333333;
+    font-size: 14px;
+    background-color: #12f1d3c5;
+    margin: 100px auto;
+    align-items: center;
+    }
+    form label{
+    display: block;
+    align-items: center;
+    width: 90%
+    }
+    h2{
+        color: rgb(255, 30, 0);
+    }
+    .button {
+    background-color: #0aff48;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 30%;
+    height: 50%;
+    padding: 2% 5% 2% 5%;
+    color: #ffffff;
+    cursor: pointer;
+    }
+    .button:hover{
+        background-color: #04f082ab;
+    }
+    .errorMsg {
+    color: #cc0000;
+    margin-bottom: 12px;
+    }
+    .sucessMsg {
+    color: #6B8E23;
+    margin-bottom: 10px;
+    }    
